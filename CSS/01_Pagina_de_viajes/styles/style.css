@@ -1,8 +1,8 @@
-/* Estilos de Página de viajes */
+/* Estilos de Página de viajes
 *{
     outline: solid black;
 }
-
+*/
 body{ /* Seleción de body */
 font-family:Arial, sans-serif ; /* Cambia tipografía */
 margin: 0; /* Elimina todo el margen por predefinido */
@@ -12,4 +12,56 @@ padding: 0; /* Elimina todo el relleno de los elementos */
 .container{
     width: 80%; /* Establece el ancho del contenedor en un 80% */
     margin: 0 auto; /* Centra horizontalmente el contenedor */
+}
+/* Estilo de encabezado */
+header{
+    background-color: #333; /* establece el color del fondo */
+    color: #fff; /*establece el color del texto */
+    padding: 20px 0 ; /*añade relleno en la parte inferior y superior */
+}
+header h1{
+    margin: 0; /* elimina el margen por defecto  del título */
+}
+/* Estilo de elemento de lista(li) */
+nav ul li{
+    display: inline; /* Alinea los elementos */
+    margin-right: 20px; /*margen hacia la derecha */
+}
+/* Estilo a elemntos de vinculo ancla(a) de navegación */
+nav ul li a{
+    color: #fff; /* color a elemento Anchor */
+    text-decoration: none; /* quita sabrayado de enlace */
+}
+section {
+    padding: 40px; /* Añade relleno superior e inferior */
+}
+#banner{
+    background-image: url('https://via.placeholder.com/1500x500'); /* Establece la imagen de fondo del banner */
+    background-size: cover; /* Ajusta la imagen al área del banner */
+    color: #fff; /* Establece el color del texto */ 
+    text-align: center; /* Centra el texto del banner */
+    padding: 100px; /* Añade relleno superior e inferior */
+}
+#banner h2{ 
+    font-size: 36px; /*Establece tamaño de h2 */
+}
+#banner p{
+    font-size: 18px; /* Establece tamaño de p */
+    margin-bottom: 20px; /* Define el margen inferior */
+}
+.btn{
+    background-color: #007bff; /* Color fondo de boton */
+    color: #fff; /* Color letra de boton */
+    padding: 10px 20px; /* Relleno de boton */
+    text-decoration: none; /* quita subrayado */
+}
+/* Estilo caundo pasa mouse sobre el boton */
+.btn:hover{
+    background-color: #0056b3;
+}
+footer{
+    background-color: #333; /* Color del fondo de footer */
+    color: #fff; /* Color de texto de footer */
+    text-align: center; /* Centra el texto */
+    padding: 20px 0; /* Añade relleno superior e inferior */
 }
