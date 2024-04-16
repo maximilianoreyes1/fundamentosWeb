@@ -65,7 +65,7 @@ section {
     justify-content: space-between; /* Distribuye uniformemente los elementos */
     flex: wrap; /* Si los elementos no caben en la misma linea, crea una nueva linea con estos elementos extra */
 }
-.destino{
+.destinos{
     width: calc(33.33%-20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
     margin-bottom: 20px; /* Define el margen inferior */
     text-align: center; /* Centra el texto */
@@ -73,6 +73,7 @@ section {
 .destinos img{
     width: 100%; /* Establece el ancho de la imagen ajustandola al elemento que la contiene */
     border-radius: 8px; /* Redondea las puntas */
+    text-align: center;
 }
 .destinos h3{
     margin-top: 10px; /* Agrega margen superior entre imagen y h3 */
