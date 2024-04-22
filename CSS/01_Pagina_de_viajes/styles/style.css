@@ -120,3 +120,27 @@ footer{
     border-radius: 5px;
     box-sizing: border-box; /* Incluye el padding y el borde del ancho dentro del elemento que lo contiene */
 }
+.destinos-container2{
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    justify-content: space-between; /* Distribuye uniformemente los elementos */
+    flex: wrap; /* Si los elementos no caben en la misma linea, crea una nueva linea con estos elementos extra */
+}
+.destinos-container3{
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    justify-content: space-between; /* Distribuye uniformemente los elementos */
+    flex: wrap; /* Si los elementos no caben en la misma linea, crea una nueva linea con estos elementos extra */
+}
+#banner-destinos{
+    background-image: url('../img/vuelo.jpg'); /* Establece la imagen de fondo del banner */
+    background-size: cover; /* Ajusta la imagen al área del banner */
+    color: #fff; /* Establece el color del texto */ 
+    text-align: center; /* Centra el texto del banner */
+    padding: 100px; /* Añade relleno superior e inferior */
+}
+#banner-destinos h2{ 
+    font-size: 36px; /*Establece tamaño de h2 */
+}
+#banner-destinos p{
+    font-size: 18px; /* Establece tamaño de p */
+    margin-bottom: 20px; /* Define el margen inferior */
+}
