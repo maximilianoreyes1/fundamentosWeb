@@ -155,5 +155,15 @@ footer{
     background-size: cover; /* Ajusta la imagen al área del banner */
     color: #ffffff; /* Establece el color del texto */ 
     text-align: center; /* Centra el texto del banner */
-    padding: 224px; /* Añade relleno superior e inferior */
+    padding: 134px; /* Añade relleno superior e inferior */
+}
+.hoteles-container{
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    justify-content: space-between; /* Distribuye uniformemente los elementos */
+    flex: wrap; /* Si los elementos no caben en la misma linea, crea una nueva linea con estos elementos extra */
+}
+.hoteles-container2{
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    justify-content: space-between; /* Distribuye uniformemente los elementos */
+    flex: wrap; /* Si los elementos no caben en la misma linea, crea una nueva linea con estos elementos extra */
 }
