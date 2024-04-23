@@ -155,23 +155,5 @@ footer{
     background-size: cover; /* Ajusta la imagen al área del banner */
     color: #ffffff; /* Establece el color del texto */ 
     text-align: center; /* Centra el texto del banner */
-    padding: 224px; /* Añade relleno superior e inferior */
-}
-.arriendo-container{
-    display: flex; /* Utiliza flexbox para alinear elementos */
-    justify-content: space-between; /* Distribuye uniformemente los elementos */
-    flex: wrap;
-}
-.arriendo{
-    width: calc(33.33%-20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
-    margin-bottom: 20px; /* Define el margen inferior */
-    text-align: center; /* Centra el texto */
-}
-.arriendo img{
-    width: 100%; /* Establece el ancho de la imagen ajustandola al elemento que la contiene */
-    border-radius: 8px; /* Redondea las puntas */
-    text-align: center;
-}
-.arriendo h3{
-    margin-top: 10px;
+    padding: 134px; /* Añade relleno superior e inferior */
 }
