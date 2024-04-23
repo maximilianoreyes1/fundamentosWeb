@@ -87,3 +87,10 @@ footer{
     text-align: center; /* Centra el texto */
     padding: 20px 0; /* Añade relleno superior e inferior */
 }
+#banner-paquetes{
+    background-image: url('https://assets.airtrfx.com/media-em/aa/638e5cd56fee1_EMHero_1500x500_Tokyo2.png'); /* Establece la imagen de fondo del banner */
+    background-size: cover; /* Ajusta la imagen al área del banner */
+    color: #fff; /* Establece el color del texto */ 
+    text-align: center; /* Centra el texto del banner */
+    padding: 100px; /* Añade relleno superior e inferior */
+}
