@@ -157,3 +157,6 @@ footer{
     text-align: center; /* Centra el texto del banner */
     padding: 134px; /* Añade relleno superior e inferior */
 }
+.container h2{
+    text-align: center;
+}
