@@ -158,7 +158,7 @@ footer{
     background-size: cover; /* Ajusta la imagen al área del banner */
     color: #ffffff; /* Establece el color del texto */ 
     text-align: center; /* Centra el texto del banner */
-    padding: 224px; /* Añade relleno superior e inferior */
+    padding: 100px; /* Añade relleno superior e inferior */
 }
 .hoteles-container{
     display: flex; /* Utiliza flexbox para alinear elementos */
