@@ -172,7 +172,7 @@ footer{
     text-align: center; /* Centra el texto */
 }
 .hoteles img{
-    width: 100%; /* Establece el ancho de la imagen ajustandola al elemento que la contiene */
+    width: 130%; /* Establece el ancho de la imagen ajustandola al elemento que la contiene */
     border-radius: 8px; /* Redondea las puntas */
     text-align: center;
 }
