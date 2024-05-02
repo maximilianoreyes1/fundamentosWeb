@@ -87,12 +87,16 @@ footer{
     text-align: center; /* Centra el texto */
     padding: 20px 0; /* Añade relleno superior e inferior */
 }
+#banner-paquetes{
+    background-image: url('https://assets.airtrfx.com/media-em/aa/638e5cd56fee1_EMHero_1500x500_Tokyo2.png'); /* Establece la imagen de fondo del banner */
+    background-size: cover;
+}
 #banner-Arriendo{
     background-image: url('https://images.unsplash.com/photo-1544143086-828f66ac3945?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Establece la imagen de fondo del banner */
     background-size: cover; /* Ajusta la imagen al área del banner */
     color: #271f1f; /* Establece el color del texto */ 
     text-align: center; /* Centra el texto del banner */
-    padding: 340px; /* Añade relleno superior e inferior */
+    padding: 350px; /* Añade relleno superior e inferior */
 }
 /* Aqui va el estilo del formulario de contacto */
 #contacto{
@@ -155,5 +159,32 @@ footer{
     background-size: cover; /* Ajusta la imagen al área del banner */
     color: #ffffff; /* Establece el color del texto */ 
     text-align: center; /* Centra el texto del banner */
-    padding: 224px; /* Añade relleno superior e inferior */
+    padding: 100px; /* Añade relleno superior e inferior */
+}
+.hoteles-container{
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    justify-content: space-between; /* Distribuye uniformemente los elementos */
+    flex: wrap; /* Si los elementos no caben en la misma linea, crea una nueva linea con estos elementos extra */
+}
+.hoteles{
+    width: calc(33.33%-20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
+    margin-bottom: 20px; /* Define el margen inferior */
+    text-align: center; /* Centra el texto */
+}
+.hoteles img{
+    width: 130%; /* Establece el ancho de la imagen ajustandola al elemento que la contiene */
+    border-radius: 8px; /* Redondea las puntas */
+    text-align: center;
+}
+.hoteles h2{
+    margin-top: 10px; /* Agrega margen superior entre imagen y h3 */
+}
+.hoteles h3{
+    margin-top: 10px; /* Agrega margen superior entre imagen y p */
+}
+.hoteles p{
+    margin-top: 10px; /* Agrega margen superior entre imagen y p */
+}
+.container h2{
+    text-align: center;
 }
