@@ -1,6 +1,6 @@
 body {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     height: 1px;
     margin: 0;
     background-color: #f8f9fa;
@@ -13,7 +13,7 @@ body {
     align-items: start;
 }
 
-.search-container, .plus-button-container, .create-account {
+.search-container, .mas-button-container, .create-account {
     margin-bottom: 20px;
 }
 
@@ -27,7 +27,7 @@ body {
     font-size: 16px;
 }
 
-.plus-button {
+.mas-button {
     background-color: #20c997;
     border: none;
     color: white;
@@ -47,5 +47,5 @@ body {
     font-size: 16px;
     cursor: pointer;
     border-radius: 4px;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: #000;
 }
