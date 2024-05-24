@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    margin: 0;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.search-container, .plus-button-container, .create-account {
+    margin-bottom: 20px;
+}
+
+.search-button {
+    background-color: white;
+    border: 2px solid #20c997;
+    color: #20c997;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.plus-button {
+    background-color: #20c997;
+    border: none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.create-account {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
