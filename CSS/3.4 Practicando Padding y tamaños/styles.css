@@ -19,25 +19,25 @@ body {
 }
 
 .content {
-    width: 200px;
-    height: 100px;
-    background-color: #81D4FA; /* Color del contenido */
+    width: 450px;
+    height: 200px;
+    background-color: #81D4FA;
 }
 
 .padding {
-    width: 300px;
-    height: 200px;
-    background-color: #29B6F6; /* Color del padding */
+    width: 650px;
+    height: 400px;
+    background-color: #29B6F6;
 }
 
 .border {
-    width: 400px;
-    height: 300px;
-    background-color: #FFAB91; /* Color del borde */
+    width: 850px;
+    height: 550px;
+    background-color: #FFAB91;
 }
 
 .margin {
     width: 500px;
     height: 400px;
-    background-color: #E65100; /* Color del margen */
+    background-color: #E65100;
 }

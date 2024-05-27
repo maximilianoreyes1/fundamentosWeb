@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: left;
     height: 1px;
-    margin: 0;
+    margin: 55px 70px;
     background-color: #f8f9fa;
     font-family: Arial, sans-serif;
 }
