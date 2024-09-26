@@ -1,0 +1,36 @@
+/*
+*{
+    outline: solid black;
+}
+*/
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 800px;
+    width: 100%;
+}
+
+.row{
+    justify-content: center;
+    display: flex;
+    height: 250px;
+    width: 94%;
+    margin: 50px;
+}
+
+#blue{
+    background-color: #5AC8EE;
+}
+#pink{
+    background-color:#D6A4D7;
+}
+#white{
+    background-color: #FCFCFF;
+}
+
+#foto{
+    margin:50px;
+}
