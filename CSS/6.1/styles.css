@@ -1,4 +1,4 @@
-/
+/*
 * {
     outline: solid black 1px;
 }
@@ -31,23 +31,6 @@ body {
     align-items: center;
 }
 
-.nav-links2 button.btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    border: none;
-    background: none;
-    font-size: 14px;
-    cursor: pointer;
-    font-weight: bold;
-    color: #000;
-}
-
-#pedir{
-    color: red;
-}
-
 ul{
     list-style: none;
 }
@@ -74,4 +57,55 @@ ul{
     font-size: 14px;
     cursor: pointer;
     color: #000;
+}
+
+#perfil {
+    width: 30px; 
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#cupon {
+    width: 40px;
+    height: 33px;
+    margin-bottom: 1px;
+}
+
+#icon {
+    width: 60px;
+    height: 60px;
+}
+
+#ingresar {
+    background-color: #333; 
+    color: #fff;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 20px; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ubicacion button{
+    background-color: #333;
+    color: #fff; 
+    font-size: 14px;
+    font: inherit;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.ubicacion{
+    height: 60px;
+}
+
+.nav-links2 input{
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    padding: 8px 15px;
+    width: 200px;
 }
