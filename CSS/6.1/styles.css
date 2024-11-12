@@ -4,18 +4,20 @@
 }
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .nav-links a, .nav-links2 button {
@@ -29,25 +31,30 @@ body {
 .nav-links, .nav-links2 {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.logo{
-    width: 190px;
+.logo {
+    width: 100%;
+    max-width: 190px;
 }
 
-.ubicacion{
+.ubicacion {
     background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.combos img{
+.combos img {
     width: 100%;
 }
 
-.nav-links2 button{
+.nav-links2 button {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,7 +94,7 @@ ul{
     cursor: pointer;
 }
 
-.ubicacion button{
+.ubicacion button {
     background-color: #333;
     color: #fff; 
     font-size: 14px;
@@ -97,30 +104,36 @@ ul{
     padding: 8px 15px;
     cursor: pointer;
     margin-top: 15px;
+    margin-bottom: 10px;
 }
 
-.ubicacion{
-    height: 60px;
+.ubicacion {
+    height: auto; /* Ajuste automático de altura */
+    justify-content: left;
 }
 
-.nav-links2 input{
+.nav-links2 input {
     background-color: #f3f3f3;
     border-radius: 20px;
     padding: 8px 15px;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
 }
 
-.menu, .menu2{
+.menu, .menu2 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.menu img, .menu2 img{
-    width: 200px;
-    padding: 20px;
+.menu img, .menu2 img {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
 }
 
-.menu button, .menu2 button{
+.menu button, .menu2 button {
+    max-width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,16 +142,23 @@ ul{
     font-size: 14px;
     cursor: pointer;
     color: #000;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    flex: 1 1 150px;
 }
 
-.btn-menu{
+.menu button:hover, .menu2 button:hover {
+    transform: scale(1.1);
+}
+
+.btn-menu {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.btn-menu button{
+.btn-menu button {
     margin-top: 20px;
     background-color: #fa0000;
     color: #fff;
@@ -148,6 +168,6 @@ ul{
     cursor: pointer;
 }
 
-.text-menu{
+.text-menu {
     margin-left: 21px;
 }
