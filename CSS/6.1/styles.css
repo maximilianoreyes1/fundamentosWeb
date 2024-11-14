@@ -171,3 +171,46 @@ ul {
 .text-menu {
     margin-left: 21px;
 }
+
+footer{
+    background-color: #F8F7F5;
+}
+
+.container-4{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.father-menu{
+    margin-bottom: 30px;
+}
+
+.father-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pide-online, .contacto, .nosotros, .politicas {
+    margin: 10px;
+    max-width: 180px;
+}
+
+.download {
+    flex-direction: column;
+    display: flex;
+}
+
+.download img{
+    max-width: 200px;
+}
+
+.descargar-app button{
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
