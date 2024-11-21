@@ -1,0 +1,19 @@
+/*
+*{
+    outline: black;
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul li img{
+    width: 55px;
+}
