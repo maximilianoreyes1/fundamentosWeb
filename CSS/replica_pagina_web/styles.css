@@ -1,6 +1,6 @@
 /*
 *{
-    outline: black;
+    outline:  solid black 1px;
 }
 */
 
@@ -9,11 +9,119 @@
     padding: 0;
 }
 
-.nav ul{
-    display: flex;
-    justify-content: space-around;
+body{
+    background-color: #f5ebdc;
+    font-family: arial, sans-serif;
+    line-height: 1.5;
 }
 
-.nav ul li img{
-    width: 55px;
+.nav{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav img{
+    width: 50px;
+}
+
+#promos{
+    background-color: #d62400;
+    color: #fff;
+    padding: 13px;
+}
+
+.nav button{
+    border: none;
+    color: #4f2314;
+    background-color: #f5ebdc;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.nav button:hover{
+    background-color: #c7c7c76b;
+    color: #bb1f00;
+}
+
+.nav button, .nav img{
+    margin: 10px 15px 10px;
+}
+
+.banner{
+    max-width: 100%;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.locales {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 32px;
+    border-radius: 15px;
+    background-color: #f0e0cc;
+    margin: 80px 100px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.locales-text h1 {
+    font-size: 32px;
+    color: #4f2314;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.locales-text p {
+    font-size: 16px;
+    color: #4f2314;
+    margin-bottom: 24px;
+}
+
+.buscador {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buscador input {
+    flex: 1;
+    border: none;
+    padding: 13px;
+    font-size: 16px;
+    color: #4f2314;
+    outline: none;
+}
+
+.buscador button {
+    background-color: #fff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #4f2314;
+}
+
+.locales-img img{
+    width: 250px;
+    margin-right: 125px;
 }
