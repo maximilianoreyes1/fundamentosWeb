@@ -69,7 +69,6 @@ body{
 }
 
 .locales {
-    width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,8 +76,12 @@ body{
     padding: 32px;
     border-radius: 15px;
     background-color: #f0e0cc;
-    margin: 80px 100px;
+    margin: 80px 10%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.locales-text{
+    flex: 1 1 300px;
 }
 
 .locales-text h1 {
@@ -95,7 +98,8 @@ body{
 }
 
 .buscador {
-    width: 450px;
+    border-radius: 10px;
+    width: 80%;
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -113,6 +117,7 @@ body{
 }
 
 .buscador button {
+    border-radius: 10px;
     background-color: #fff;
     border: none;
     padding: 12px;
@@ -121,7 +126,12 @@ body{
     color: #4f2314;
 }
 
+.locales-img{
+    flex: 1 1 250px;
+    text-align: center;
+}
+
 .locales-img img{
-    width: 250px;
-    margin-right: 125px;
+    width: 100%;
+    max-width: 250px;
 }
