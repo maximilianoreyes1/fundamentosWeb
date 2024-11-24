@@ -49,6 +49,7 @@ body{
     border-radius: 20px;
     padding: 5px;
     font-weight: 600;
+    text-align: left;
 }
 
 .nav button:hover{
@@ -76,7 +77,7 @@ body{
     padding: 32px;
     border-radius: 15px;
     background-color: #f0e0cc;
-    margin: 80px 10%;
+    margin: 80px 8%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -134,4 +135,52 @@ body{
 .locales-img img{
     width: 100%;
     max-width: 250px;
+}
+
+.novedades{
+    margin: 6%;
+}
+
+.novedades h3{
+    color: #502314;
+}
+
+.novedades p{
+    color: #714B3C;
+}
+
+.novedades-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+
+.novedades-text a{
+    color: #d72300;
+    text-decoration: none;
+}
+
+.novedades-text a:hover{
+    color: rgba(215, 35, 0, 0.8);
+}
+
+.novedades-container{
+    display: flex;
+    justify-content: center;
+}
+
+.nov{
+    margin: 10px;
+    flex: 1 ;
+}
+
+.nov img{
+    height: 230px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.nov a img:hover{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); ;
 }
