@@ -177,10 +177,53 @@ body{
 
 .nov img{
     height: 230px;
-    max-width: 100%;
+    max-width: 90%;
     border-radius: 20px;
+    margin: 20px;
 }
 
 .nov a img:hover{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); ;
+}
+
+.cupones-text{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cupones-text a{
+    color: #d72300;
+    text-decoration: none;
+}
+
+.cupones-text a:hover{
+    color: rgba(215, 35, 0, 0.8);
+}
+
+.cupones img{
+    height: 250px;
+    border-radius: 20px;
+    margin: 34px;
+    width: 320px;
+    cursor: pointer;
+}
+
+.cupones img:hover{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); ;
+}
+
+.cupones{
+    justify-content: space-around;
+    text-align: center;
+    margin: 6%;
+}
+
+.cupones h2{
+    color: #502314;
+}
+
+.telefono{
+    background-color: #D72300;
 }
