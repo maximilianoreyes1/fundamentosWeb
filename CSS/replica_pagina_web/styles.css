@@ -1,8 +1,8 @@
-/*
+
 *{
     outline:  solid black 1px;
 }
-*/
+
 
 *{
     margin: 0;
@@ -189,7 +189,7 @@ body{
 .cupones-text{
     display: flex;
     margin: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -226,4 +226,30 @@ body{
 
 .telefono{
     background-color: #D72300;
+    display: flex;
+}
+
+.img-telefono{
+    max-width: 50%;
+    display: flex;
+}
+
+.img-telefono img{
+    width: 100px;
+    height: 50px;
+}
+
+.img-celular img{
+    margin: 30px;
+    width: 480px;
+}
+
+.container-telefono{
+    max-width: 100%;
+    margin: 50px;
+}
+
+.container-telefono h1{
+    font-size: 50px;
+    color: #fff;
 }
