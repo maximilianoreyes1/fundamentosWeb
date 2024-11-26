@@ -261,3 +261,17 @@ body{
 .container-telefono h4{
     color: #502314;
 }
+
+footer{
+    background-color: #502314;
+    display: flex;
+}
+
+.burger-king{
+    margin: 60px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
