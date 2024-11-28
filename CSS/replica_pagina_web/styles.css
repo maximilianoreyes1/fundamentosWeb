@@ -1,8 +1,7 @@
-
-*{
+/*{
     outline:  solid black 1px;
 }
-
+*/
 
 *{
     margin: 0;
@@ -206,10 +205,10 @@ body{
 }
 
 .cupones img{
-    height: 250px;
+    height: 260px;
     border-radius: 20px;
     margin: 34px;
-    width: 320px;
+    width: 460px;
     cursor: pointer;
 }
 
@@ -246,6 +245,7 @@ body{
     width: 120px;
     height: 45px;
     margin: 20px;
+    cursor: pointer;
 }
 
 .img-celular img{
@@ -274,17 +274,18 @@ body{
 
 footer{
     background-color: #502314;
-    display: flex;
 }
 
 .burger-king{
-    margin: 100px;
-    margin-right: 80px;
+    margin-top: 5%;
+    margin-left: 10%;
 }
 
 .footer-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 20%;
 }
 
 .text-burger{
@@ -295,14 +296,13 @@ footer{
 
 .info{
     display: flex;          
-    flex-direction: column; 
-    margin-left: 370px;
+    flex-direction: column;
     margin-top: 60px;
 }
 
 .info2{
-    display: flex;         
-    flex-direction: column; 
+    display: flex;    
+    flex-direction: column;
     margin-top: 60px;
 }
 
@@ -313,6 +313,7 @@ footer{
 
 .burger-king{
     color: #fff;
+    cursor: pointer;
 }
 
 .info a{
@@ -329,4 +330,26 @@ footer{
 
 .info a:hover, .info2 a:hover{
     color: rgba(215, 35, 0, 0.8);
+}
+
+.footer-elements{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 20px;
+    background-color: #502314;
+}
+.footer-final-text h6{
+    color: #fff;
+}
+
+.footer-final-img{
+    height: 30px;
+    display: flex;
+    margin: 0px 23% 0px;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.footer-final-text{
+    margin: 0px 8% 0px;
 }
