@@ -230,9 +230,14 @@ body{
 .telefono{
     background-color: #D72300;
     display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a varias filas si es necesario */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    gap: 20px; /* Espacio entre los elementos */
 }
 
 .img-telefono{
+    flex: 1;
     max-width: 50%;
     display: flex;
 }
@@ -244,18 +249,23 @@ body{
 }
 
 .img-celular img{
-    width: 480px;
-    margin-top: 46px;
+    flex: 1;
+    width: 500px;
+    margin-top: 56px;
+    margin-left: 230px;
+    display: flex;
 }
 
 .container-telefono{
+    flex: 1;
     max-width: 100%;
     margin: 50px;
 }
 
 .container-telefono h1{
-    font-size: 50px;
+    font-size: 40px;
     color: #fff;
+    margin-top: 10px;
 }
 
 .container-telefono h4{
@@ -268,10 +278,55 @@ footer{
 }
 
 .burger-king{
-    margin: 60px;
+    margin: 100px;
+    margin-right: 80px;
 }
 
 .footer-container{
     display: flex;
     justify-content: space-between;
+}
+
+.text-burger{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info{
+    display: flex;          
+    flex-direction: column; 
+    margin-left: 370px;
+    margin-top: 60px;
+}
+
+.info2{
+    display: flex;         
+    flex-direction: column; 
+    margin-top: 60px;
+}
+
+.text-burger h1{
+    color: #fff;
+    padding: 10px;
+}
+
+.burger-king{
+    color: #fff;
+}
+
+.info a{
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.info2 a{
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.info a:hover, .info2 a:hover{
+    color: rgba(215, 35, 0, 0.8);
 }
