@@ -1,19 +1,22 @@
-/*{
+
+*{
     outline:  solid black 1px;
 }
-*/
+
 
 *{
     margin: 0;
     padding: 0;
 }
 
+/*Estilos aplicados a toda la página*/
 body{
     background-color: #f5ebdc;
     font-family: arial, sans-serif;
     line-height: 1.5;
 }
 
+/*Estilos de la barra de navegación*/
 .nav{
     background-color: #f5ebdc;
     width: 100%;
@@ -62,6 +65,7 @@ body{
     margin: 10px 15px 10px;
 }
 
+/*Ajustes de tamaño del banner*/
 .banner{
     max-width: 100%;
 }
@@ -71,7 +75,9 @@ body{
     max-width: 100%;
 }
 
+/*Estilos para la seccion de locales*/
 .locales {
+    max-width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,7 +85,7 @@ body{
     padding: 32px;
     border-radius: 15px;
     background-color: #f0e0cc;
-    margin: 80px 8%;
+    margin: 80px 15%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -100,6 +106,7 @@ body{
     margin-bottom: 24px;
 }
 
+/*Estilos de la barra de busqueda de la seccion "locales"*/
 .buscador {
     border-radius: 10px;
     width: 80%;
@@ -139,6 +146,7 @@ body{
     max-width: 250px;
 }
 
+/*Estilos de la seccion de novedades*/
 .novedades{
     margin: 6%;
 }
@@ -154,7 +162,7 @@ body{
 .novedades-text{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 10px 15%;
     align-items: center;
 }
 
@@ -168,6 +176,8 @@ body{
 }
 
 .novedades-container{
+    margin-left: 15%;
+    max-width: 70%;
     display: flex;
     justify-content: center;
 }
@@ -188,9 +198,10 @@ body{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); ;
 }
 
+/*Estilo de la sección cupones*/
 .cupones-text{
     display: flex;
-    margin: 10px;
+    margin: 10px 9%;
     justify-content: space-between;
     align-items: center;
 }
@@ -208,7 +219,7 @@ body{
     height: 260px;
     border-radius: 20px;
     margin: 34px;
-    width: 460px;
+    width: 400px;
     cursor: pointer;
 }
 
@@ -226,13 +237,14 @@ body{
     color: #502314;
 }
 
+/*estilos de la sección telefono*/
 .telefono{
     background-color: #D72300;
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten a varias filas si es necesario */
-    justify-content: center; /* Centra el contenido horizontalmente */
-    align-items: center; /* Centra el contenido verticalmente */
-    gap: 20px; /* Espacio entre los elementos */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .img-telefono{
@@ -272,6 +284,7 @@ body{
     color: #502314;
 }
 
+/*Estilos del footer*/
 footer{
     background-color: #502314;
 }
