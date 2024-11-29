@@ -85,8 +85,8 @@ body{
     padding: 32px;
     border-radius: 15px;
     background-color: #f0e0cc;
-    margin: 80px 15%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 19%;
 }
 
 .locales-text{
@@ -153,6 +153,7 @@ body{
 
 .novedades h3{
     color: #502314;
+    cursor: pointer;
 }
 
 .novedades p{
@@ -188,10 +189,11 @@ body{
 }
 
 .nov img{
-    height: 230px;
-    max-width: 90%;
+    height: 240px;
+    width: 100%;
+    max-width: 100%;
     border-radius: 20px;
-    margin: 20px;
+    margin: 0px;
 }
 
 .nov a img:hover{
