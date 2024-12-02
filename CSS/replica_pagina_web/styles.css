@@ -4,7 +4,6 @@
 }
 */
 
-
 *{
     margin: 0;
     padding: 0;
@@ -86,8 +85,8 @@ body{
     padding: 32px;
     border-radius: 15px;
     background-color: #f0e0cc;
-    margin: 80px 21%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 19%;
 }
 
 .locales-text{
@@ -152,8 +151,14 @@ body{
     margin: 6%;
 }
 
-.novedades h3{
+.nov-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.novedades h2{
     color: #502314;
+    cursor: pointer;
 }
 
 .novedades p{
@@ -163,7 +168,7 @@ body{
 .novedades-text{
     display: flex;
     justify-content: space-between;
-    margin: 10px 15%;
+    margin: 10px 13%;
     align-items: center;
 }
 
@@ -177,8 +182,8 @@ body{
 }
 
 .novedades-container{
-    margin-left: 15%;
-    max-width: 70%;
+    width: 75%;
+    max-width: 80%;
     display: flex;
     justify-content: center;
 }
@@ -189,10 +194,11 @@ body{
 }
 
 .nov img{
-    height: 230px;
-    max-width: 90%;
+    height: 240px;
+    width: 100%;
+    max-width: 100%;
     border-radius: 20px;
-    margin: 20px;
+    margin: 0px;
 }
 
 .nov a img:hover{
@@ -202,7 +208,7 @@ body{
 /*Estilo de la sección cupones*/
 .cupones-text{
     display: flex;
-    margin: 10px 13%;
+    margin: 10px 14%;
     justify-content: space-between;
     align-items: center;
 }
@@ -217,10 +223,11 @@ body{
 }
 
 .cupones img{
+    flex: 1;
     height: 260px;
     border-radius: 20px;
-    margin: 26px;
-    width: 350px;
+    margin: 8px;
+    width: 23%;
     cursor: pointer;
 }
 
