@@ -169,6 +169,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 10px 13%;
+    margin: 10px 15%;
     align-items: center;
 }
 
@@ -184,6 +185,8 @@ body{
 .novedades-container{
     width: 75%;
     max-width: 80%;
+    margin-left: 15%;
+    max-width: 70%;
     display: flex;
     justify-content: center;
 }
@@ -228,6 +231,10 @@ body{
     border-radius: 20px;
     margin: 8px;
     width: 23%;
+    height: 260px;
+    border-radius: 20px;
+    margin: 8px;
+    width: 380px;
     cursor: pointer;
 }
 
