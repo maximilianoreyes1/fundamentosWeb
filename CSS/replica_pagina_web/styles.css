@@ -1,20 +1,22 @@
-
+/*
 *{
     outline:  solid black 1px;
 }
-
+*/
 
 *{
     margin: 0;
     padding: 0;
 }
 
+/*Estilos aplicados a toda la página*/
 body{
     background-color: #f5ebdc;
     font-family: arial, sans-serif;
     line-height: 1.5;
 }
 
+/*Estilos de la barra de navegación*/
 .nav{
     background-color: #f5ebdc;
     width: 100%;
@@ -63,6 +65,7 @@ body{
     margin: 10px 15px 10px;
 }
 
+/*Ajustes de tamaño del banner*/
 .banner{
     max-width: 100%;
 }
@@ -72,7 +75,9 @@ body{
     max-width: 100%;
 }
 
+/*Estilos para la seccion de locales*/
 .locales {
+    max-width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,8 +85,8 @@ body{
     padding: 32px;
     border-radius: 15px;
     background-color: #f0e0cc;
-    margin: 80px 8%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 19%;
 }
 
 .locales-text{
@@ -101,6 +106,7 @@ body{
     margin-bottom: 24px;
 }
 
+/*Estilos de la barra de busqueda de la seccion "locales"*/
 .buscador {
     border-radius: 10px;
     width: 80%;
@@ -140,12 +146,19 @@ body{
     max-width: 250px;
 }
 
+/*Estilos de la seccion de novedades*/
 .novedades{
     margin: 6%;
 }
 
-.novedades h3{
+.nov-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.novedades h2{
     color: #502314;
+    cursor: pointer;
 }
 
 .novedades p{
@@ -155,7 +168,8 @@ body{
 .novedades-text{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 10px 13%;
+    margin: 10px 15%;
     align-items: center;
 }
 
@@ -169,6 +183,9 @@ body{
 }
 
 .novedades-container{
+    width: 75%;
+    max-width: 80%;
+    max-width: 70%;
     display: flex;
     justify-content: center;
 }
@@ -179,19 +196,21 @@ body{
 }
 
 .nov img{
-    height: 230px;
-    max-width: 90%;
+    height: 240px;
+    width: 100%;
+    max-width: 100%;
     border-radius: 20px;
-    margin: 20px;
+    margin: 0px;
 }
 
 .nov a img:hover{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); ;
 }
 
+/*Estilo de la sección cupones*/
 .cupones-text{
     display: flex;
-    margin: 10px;
+    margin: 10px 14%;
     justify-content: space-between;
     align-items: center;
 }
@@ -206,10 +225,15 @@ body{
 }
 
 .cupones img{
-    height: 250px;
+    flex: 1;
+    height: 260px;
     border-radius: 20px;
-    margin: 34px;
-    width: 320px;
+    margin: 8px;
+    width: 23%;
+    height: 260px;
+    border-radius: 20px;
+    margin: 8px;
+    width: 380px;
     cursor: pointer;
 }
 
@@ -227,12 +251,18 @@ body{
     color: #502314;
 }
 
+/*estilos de la sección telefono*/
 .telefono{
     background-color: #D72300;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .img-telefono{
+    flex: 1;
     max-width: 50%;
     display: flex;
 }
@@ -241,23 +271,112 @@ body{
     width: 120px;
     height: 45px;
     margin: 20px;
+    cursor: pointer;
 }
 
 .img-celular img{
-    width: 480px;
-    margin-top: 46px;
+    flex: 1;
+    width: 500px;
+    margin-top: 56px;
+    margin-left: 230px;
+    display: flex;
 }
 
 .container-telefono{
+    flex: 1;
     max-width: 100%;
     margin: 50px;
 }
 
 .container-telefono h1{
-    font-size: 50px;
+    font-size: 40px;
     color: #fff;
+    margin-top: 10px;
 }
 
 .container-telefono h4{
     color: #502314;
+}
+
+/*Estilos del footer*/
+footer{
+    background-color: #502314;
+}
+
+.burger-king{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 20%;
+}
+
+.text-burger{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info{
+    display: flex;          
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.info2{
+    display: flex;    
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.text-burger h1{
+    color: #fff;
+    padding: 10px;
+}
+
+.burger-king{
+    color: #fff;
+    cursor: pointer;
+}
+
+.info a{
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.info2 a{
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.info a:hover, .info2 a:hover{
+    color: rgba(215, 35, 0, 0.8);
+}
+
+.footer-elements{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 20px;
+    background-color: #502314;
+}
+.footer-final-text h6{
+    color: #fff;
+}
+
+.footer-final-img{
+    height: 30px;
+    display: flex;
+    margin: 0px 23% 0px;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.footer-final-text{
+    margin: 0px 8% 0px;
 }
